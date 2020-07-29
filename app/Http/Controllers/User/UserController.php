@@ -52,12 +52,12 @@ class UserController extends Controller
         // dd($request->all());
         $client = new Client([
                 // Base URI is used with relative requests
-                'base_uri' => 'http://192.168.0.2:8000/',
+                'base_uri' => 'http://192.168.0.2:3000/',
                 // You can set any number of default request options.
                 //'timeout'  => 2.0,
         ]);
         $response = $client->post(
-            'http://192.168.0.2:8000/users',
+            'http://192.168.0.2:3000/users',
             [
                 'json' => $request->all()
             ]

@@ -53,7 +53,7 @@
             <div class="form-group">
                 <label>Fecha de admision</label>
                 <div class="input-group date sb-date">
-                    <input type="text" id="admission_date" name="admission_date" class="form-control" placeholder="dd-mm-aaaa">
+                    <input type="date" id="admission_date" name="admission_date" class="form-control" placeholder="dd-mm-aaaa">
                 </div>
             </div>
             <div class="form-group">
